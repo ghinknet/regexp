@@ -22,6 +22,7 @@ func compile(expr string, mode syntax.Flags) (*Regexp, error) {
 		l.RUnlock()
 		return re, nil
 	}
+	l.RUnlock()
 
 	// RW lock
 	l.Lock()
