@@ -8,7 +8,7 @@ import (
 
 type Regexp = regexp.Regexp
 
-var l *sync.RWMutex
+var l = new(sync.RWMutex)
 
 type record struct {
 	Re   string
