@@ -11,5 +11,5 @@ Go regexp with cache
 Default behaviors are mostly consistent with standard `regexp`.
 
  ```go
-import "github.com/ghinknet/regexp"
+import "go.gh.ink/regexp"
  ```
