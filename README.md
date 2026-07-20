@@ -8,7 +8,7 @@ Go regexp with cache
 
 ## Usage
 
-Default behaviors are mostly consistent with standard `regexp`.
+Default behaviours are mostly consistent with standard `regexp`.
 
  ```go
 import "go.gh.ink/regexp"
